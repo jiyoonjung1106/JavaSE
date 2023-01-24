@@ -7,17 +7,20 @@ public class MainClass06 {
 		Random random = new Random();
 		int nums [] [] = new int [7] [7];
 		
+		
 		for(int num = 0; num<7; num++ ) {
 			for(int num1=0; num1<num; num1++) {
 			int rint = random.nextInt(49)+1;
-			System.out.print(rint+" \t");
+			nums[num][num1] = rint;
+			System.out.print(nums[num][num1]+" \t");
 			}
 			System.out.println();
 		}
-		for(int num = 7; num>0; num-- ) {
-			for(int num1=0; num1<num; num1++) {
+		for(int num = 0; num<7; num++ ) {
+			for(int num1=num; num1<7; num1++) {
 			int rint = random.nextInt(49)+1;
-			System.out.print( rint+" \t" );
+			nums[num][num1] = rint;
+			System.out.print( nums[num][num1]+" \t" );
 			}
 			System.out.println(	);
 		}
