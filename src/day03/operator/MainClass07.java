@@ -10,5 +10,13 @@ public class MainClass07 {
 				int num = 10;
 				String result = num>0 ? "num은 양수" : "num은 음수";
 				System.out.println(result + "입니다.");
+				
+				String result2 = null;
+				if(num>0) {
+					result2 = "num은 양수";
+				} else {
+					result2 = "num은 음수";
+				}
+				System.out.println(result2 + "입니다.");
 			}
 }
