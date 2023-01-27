@@ -1,5 +1,13 @@
 package day04;
-
+/*
+0   *			
+1  ***
+2 *****
+3*******
+4 *****
+5  ***
+6   *
+ */
 public class Homework {
 		public static void main(String[] args) {
 			for (int i = 0; i < 7; i++) {
