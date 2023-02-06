@@ -18,7 +18,8 @@ public class MainClass01 {
 makeStar(); // 마름모 별찍기
 		
 		// hello 메소드 호출하기
-		hello();
+		MainClass01 mc01 = new MainClass01();
+		mc01.hello();
 		
 		// printName 메소드 호출하기
 		printName("피카츄");
